@@ -1,0 +1,14 @@
+<div *ngFor="let a of articles">
+  <div style="margin:20px;">
+    <h2><u>{{a.title}}</u><br></h2>
+    <div style="text-align:center;">
+      <img src={{a.urlToImage}} style="width:80%;height:40%;"><br><br>
+    </div>
+    <p>
+      {{a.description}}<br>
+      {{a.url}}<br>
+      <a style="float:right;"><b>{{a.author}}</b></a><br>
+    </p>
+  </div>
+  <hr>
+</div>
